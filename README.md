@@ -1,9 +1,9 @@
-# 黒髪太郎のAIツール（無料版）
+# きみのり工房のAIツール（無料版）
 
 エンジニアも非エンジニアも使える、ブラウザで即試せるAI活用ツール集。
 インストール不要・完全無料・オフライン動作。
 
-🌐 **公開URL**: https://kurokami-taro.github.io/ai-tools/
+🌐 **公開URL**: https://kiminori-kobo.github.io/ai-tools/
 
 ## 収録ツール
 
@@ -35,12 +35,11 @@
 - Kanban型タスクパッド＋プロンプト自動生成
 - プロンプトビルダー プロ版（バグ修正・実装・レビュー対応）
 
-詳しくはnote / Xでお知らせします。
+詳しくはXでお知らせします。
 
 ## 作っている人
 
-黒髪太郎（34歳・元会社員→フリーランスエンジニア）
-- [note](https://note.com/kurokami_tarou)：AI副業のリアルを発信
+きみのり工房 / Kiminori Kobo（34歳・元会社員→フリーランスエンジニア）
 - X：[@ganbarun69](https://x.com/ganbarun69)
 
 ## ライセンス
