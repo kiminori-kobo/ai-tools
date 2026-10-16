@@ -35,12 +35,12 @@
 - Kanban型タスクパッド＋プロンプト自動生成
 - プロンプトビルダー プロ版（バグ修正・実装・レビュー対応）
 
-詳しくはXでお知らせします。
+公開したらこのリポジトリでお知らせします。
 
 ## 作っている人
 
 きみのり工房 / Kiminori Kobo（東京のソフトウェアエンジニア。Web・バックエンド開発11年）
-- X：[@ganbarun69](https://x.com/ganbarun69)
+- GitHub：[kiminori-kobo](https://github.com/kiminori-kobo)
 
 ## ライセンス
 
