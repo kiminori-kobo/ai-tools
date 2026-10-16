@@ -5,6 +5,8 @@
 
 🌐 **公開URL**: https://kiminori-kobo.github.io/ai-tools/
 
+**English:** A small set of free tools for working with AI assistants such as Claude Code and ChatGPT. The HTML tools (a Claude Code setup guide, a prompt builder, and an instruction generator) are single files that run offline in the browser — open the [site](https://kiminori-kobo.github.io/ai-tools/) or any `.html` file directly; nothing is installed and no data leaves your machine. [token-trim](./token-trim/) is a Node.js CLI that strips comments and whitespace from code or text to cut its token count before you paste it into an AI.
+
 ## 収録ツール
 
 ### HTML単一ファイル（ブラウザで開くだけ）

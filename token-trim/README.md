@@ -4,6 +4,8 @@ AIのコンテキストウィンドウに渡すコード/テキストファイ�
 
 コメント除去・空白圧縮・import折り畳みを行い、削減前後のトークン数をパーセント表示します。
 
+**English:** A CLI that reduces the token count of code or text before you pass it to an AI's context window. It removes comments, collapses blank lines and whitespace, and folds multi-line imports, then reports the token count before and after. Usage: run `npm install` in this directory (the built `dist/index.js` is included), then pipe input through it, e.g. `cat src/index.ts | node dist/index.js --no-comments --stats`. Run `npm link` to use it as the `token-trim` command.
+
 ---
 
 ## インストール
