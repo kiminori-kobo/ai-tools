@@ -39,7 +39,7 @@
 
 ## 作っている人
 
-きみのり工房 / Kiminori Kobo（34歳・元会社員→フリーランスエンジニア）
+きみのり工房 / Kiminori Kobo（東京のソフトウェアエンジニア。Web・バックエンド開発11年）
 - X：[@ganbarun69](https://x.com/ganbarun69)
 
 ## ライセンス

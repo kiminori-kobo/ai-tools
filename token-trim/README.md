@@ -150,29 +150,26 @@ Claudeの実際のトークナイザーとは若干異なりますが、**目安
 
 ---
 
-## 使用例：note記事生成プロジェクトでの活用
+## 使用例
 
 ```bash
-# 長い記事ファイルをClaudeに渡す前にトークンを削減
-cat output/0031_fukugyou.md | node tools/token-trim/dist/index.js --stats
+# 長いドキュメントをClaudeに渡す前にトークンを削減
+cat docs/guide.md | token-trim --stats
 
 # スクリプトのコメントを除去してコンテキストを節約
-cat scripts/fix-compliance-regex.mjs | node tools/token-trim/dist/index.js --no-comments --stats
+cat scripts/build.mjs | token-trim --no-comments --stats
 
-# 複数の記事ファイルをまとめてトリム（一括確認）
-cat output/*.md | node tools/token-trim/dist/index.js --stats
-
-# npm link 済みの場合はコマンド名で呼べる
-cat scripts/fix-titles-regex.mjs | token-trim --no-comments --stats
+# 複数ファイルをまとめてトリム（一括確認）
+cat docs/*.md | token-trim --stats
 ```
 
-### このプロジェクト内で特に有効な場面
+### 特に有効な場面
 
 | 場面 | コマンド例 |
 |------|-----------|
-| 記事ファイルをClaudeに渡して添削・修正させる前 | `cat output/0033_fukugyou.md \| node tools/token-trim/dist/index.js --stats` |
-| scripts/ 配下のMJSスクリプトをそのまま渡すとき | `cat scripts/*.mjs \| node tools/token-trim/dist/index.js --no-comments --stats` |
-| CLAUDE.md + 複数ファイルを一度に渡すとき | 各ファイルにトリムしてから貼り付けるとコンテキスト節約になる |
+| 長い文章ファイルをClaudeに渡して添削・修正させる前 | `cat docs/guide.md \| token-trim --stats` |
+| スクリプトをそのまま渡すとき | `cat scripts/*.mjs \| token-trim --no-comments --stats` |
+| CLAUDE.md + 複数ファイルを一度に渡すとき | 各ファイルをトリムしてから貼り付けるとコンテキスト節約になる |
 
 ---
 
